@@ -19,3 +19,4 @@
 .idea/vcs.xml
 spec/factories/
 vendor/
+.idea/core.iml

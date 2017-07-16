@@ -24,8 +24,6 @@ class User < ActiveRecord::Base
     referrer = self.my_referrer
   end
 
-  Roles = [ :admin , :teacher, :learner ]
-
   def is?( requested_role )
     self.role == requested_role.to_s
   end

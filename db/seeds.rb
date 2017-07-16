@@ -5,9 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Role.create!([{:name => "admin"},
-              {:name => "teacher"},
-              {:name => "learner"}])
+Role.create!([{:name => "admin"}])
 
 admin_user = User.create!({:email => "admin@phinderr.com", :name => "Admin", :password => "111111"})
 admin_user.roles << Role.find_by_name("admin")
