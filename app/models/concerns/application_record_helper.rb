@@ -1,0 +1,3 @@
+module ApplicationRecordHelper
+
+end
