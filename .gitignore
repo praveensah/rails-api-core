@@ -15,3 +15,7 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+.idea/inspectionProfiles/
+.idea/vcs.xml
+spec/factories/
+vendor/

@@ -36,5 +36,8 @@ module TeachCore
 
     config.autoload_paths += %W(#{config.root}/lib)
 
+    config.time_zone = 'New Delhi'
+    config.active_record.default_timezone = :local
+
   end
 end
